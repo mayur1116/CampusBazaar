@@ -38,8 +38,9 @@ const register = async (req, res) => {
       },
     });
   } catch (error) {
-    res.status(500).json({ message: 'Server error', error: error.message });
-  }
+  console.error("REGISTER ERROR:", error);
+  res.status(500).json({ message: 'Server error', error: error.message });
+}
 };
 
 // Login an existing user
@@ -77,8 +78,9 @@ const login = async (req, res) => {
       },
     });
   } catch (error) {
-    res.status(500).json({ message: 'Server error', error: error.message });
-  }
+  console.error("LOGIN ERROR:", error);
+  res.status(500).json({ message: 'Server error', error: error.message });
+}
 };
 
 // Get the currently logged-in user

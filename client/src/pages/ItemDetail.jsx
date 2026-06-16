@@ -191,6 +191,7 @@ export default function ItemDetail() {
           <h3 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--primary-color)', marginBottom: '0.75rem', borderBottom: '1px solid #eee', paddingBottom: '0.25rem' }}>Seller Information</h3>
           <p><strong>Name:</strong> {item.seller?.name || 'Unknown'}</p>
           {item.seller?.email && <p><strong>Email:</strong> {item.seller.email}</p>}
+          {item.seller?.phone && <p><strong>Contact No.:</strong> {item.seller.phone}</p>}
           {item.seller?.college && <p><strong>College:</strong> {item.seller.college}</p>}
           {item.seller?.hostel && <p><strong>Hostel:</strong> {item.seller.hostel}</p>}
           {item.seller?.course && <p><strong>Course:</strong> {item.seller.course}</p>}

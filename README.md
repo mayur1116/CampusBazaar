@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CampusBazaar – Hostel Marketplace Platform
 
 A web application where students can buy and sell second-hand items within their campus.
@@ -135,3 +136,7 @@ new_project/
 | GET | `/api/wishlist` | Get wishlist (protected) |
 | POST | `/api/wishlist/:itemId` | Add to wishlist (protected) |
 | DELETE | `/api/wishlist/:itemId` | Remove from wishlist (protected) |
+=======
+# CampusBazaar
+CampusBazaar – A MERN-based campus marketplace for buying and selling second-hand items with authentication, image uploads, wishlist functionality, and seller profiles.
+>>>>>>> 142b0a708dd110b4582a4bf626c2e18c12ce32ef
