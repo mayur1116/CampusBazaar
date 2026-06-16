@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // Create axios instance with /api base URL
 const api = axios.create({
-  baseURL: '/api'
+  baseURL: 'https://campusbazaar-ro9k.onrender.com/api'
 })
 
 // Attach the auth token to every outgoing request
